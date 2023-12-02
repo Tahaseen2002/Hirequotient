@@ -1,0 +1,115 @@
+.header{
+    width:100%;
+    text-align: center;
+}
+.search-bar-and-delete {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-and-delete input {
+  margin-right: 10px; /* Adjust this margin to control the space between search and delete button */
+}
+.bulk-delete {
+  margin-left: auto; /* This will push the delete button to the right */
+}
+.bulk-delete button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.bulk-delete button:hover {
+  background-color: #c9302c;
+}
+
+.bulk-delete button:disabled {
+  background-color: #eee;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Add this to your style.css file or any other CSS file you are using */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #267BAD ;
+    color:white
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  button {
+    margin-right: 5px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pagination div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  .pagination .active {
+    background-color: #45a049;
+  }
+  
+  .delete-selected {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-selected:hover {
+    background-color: #c9302c;
+  }
+  
+  .delete-selected:disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
